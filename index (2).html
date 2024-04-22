@@ -63,17 +63,7 @@
   <audio id="audio-maquina" src="Audios/maquinatiempo.mp3"></audio>
 
 </body>
-<?php
-$selected_option = ""; // Reiniciar la variable a un valor vacío
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $selected_option = $_POST['anio'];
-    if ($selected_option !== "") {
-        // Si $selected_option tiene un valor, ejecuta el script
-        echo '<script src="js/animacionMaquina.js"></script>';
-    }
-}
-?>
-
+<script src = "js/animacionMaquina.js"></script>
 
     
 </html>
